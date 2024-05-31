@@ -11,13 +11,15 @@ a.navbar-brand {
 }
 #root {
     padding: 2% 8%;
-    background-image: linear-gradient(20deg, rgba(245, 70, 66, 0.5), rgba(8, 83, 156, 0.5)), url("../src/images/law_image.jpeg");
+    background-image: linear-gradient(120deg, rgba(37, 41, 88, 0.4), rgba(0, 0, 0, 1),
+        rgba(36, 37, 42, 0.5)), url("../src/images/law2.jpeg");
     background-position: center;
     background-size: cover;
     text-align: left;
     color: white;
     margin: auto;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
     height: 100vh;
 }
 
@@ -58,12 +60,11 @@ a.navbar-brand {
 
 .btn-div {
     width: 30%;
-    background-color: white;
     border-radius: 50px;
     padding: 7px;
     text-align: center;
     margin-left: -35px;
-    background-color: red;
+    background-color: rgb(103, 128, 159);
 }
 .btn-div button {
     width: 100%;
