@@ -42,13 +42,16 @@ a.navbar-brand {
     display: flex;
     align-items: center;
     padding: 4px;
+    width: 90%;
+    margin: auto;
 }
 
 .email-div {
-    width: 70%;
+    width: 95%;
     background-color: white;
     border-radius: 50px;
-    padding: 7px;
+    padding: 12px;
+    margin: auto;
 }
 .email-div input {
     width: 100%;
@@ -59,12 +62,12 @@ a.navbar-brand {
 }
 
 .btn-div {
-    width: 30%;
-    border-radius: 50px;
-    padding: 7px;
+    width: 9%;
+    border-radius: 100%;
+    padding: 13px;
     text-align: center;
-    margin-left: -35px;
-    background-color: rgba(0, 0, 0);
+    margin-left: -94px;
+    background-color: black;
 }
 .btn-div button {
     width: 100%;
@@ -84,10 +87,19 @@ a.navbar-brand {
     }
 
     .notify {
-        display: flex;
-        align-items: center;
+        width: 90%;
+        background-color: white;
         padding: 4px;
-        justify-content: center;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -2px;
+        padding: 11px;
+    }
+    .btn-div {
+        width: 20%;
+        padding: 13px;
+        margin-left: -150px;
     }
 }
 
@@ -114,6 +126,19 @@ a.navbar-brand {
     #content p {
         font-size: 20px;
     }
+    .notify {
+        width: 90%;
+        background-color: white;
+        padding: 4px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -2px;
+        padding: 8px;
+    }
+    .btn-div {
+        width: 12%;
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px){
@@ -121,10 +146,26 @@ a.navbar-brand {
         text-align: center;
     }
     #content {
-        width: 70%;
+        width: 85%;
     }
     #content h1 {
         font-size: 60px;
+    }
+
+    .notify {
+        width: 90%;
+        background-color: white;
+        padding: 2px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -2px;
+        padding: 8px;
+    }
+    .btn-div {
+        width: 12%;
+        padding: 13px;
+        margin-left: -150px;
     }
 }
 
@@ -135,11 +176,33 @@ a.navbar-brand {
     #content {
         width: 85%;
         margin: auto;
-        padding-top: 15%;
+        padding-top: 10%;
      }
      #content h1 {
         font-size: 65px;
      }
+     .last {
+        margin-bottom: 30px;
+     }
+     input {
+        font-size: 24px;
+     }
+
+     .notify {
+        width: 90%;
+        background-color: white;
+        padding: 1px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -1px;
+        padding: 11px;
+    }
+    .btn-div {
+        width: 10%;
+        padding: 18px;
+        margin-left: -150px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
@@ -147,7 +210,7 @@ a.navbar-brand {
         text-align: center;
     }
     #content {
-        width: 65%;
+        width: 80%;
         margin: auto;
         padding-top: 5%;
      }
@@ -157,6 +220,29 @@ a.navbar-brand {
      #content p {
         font-size: 40px;
      }
+
+     .notify {
+        width: 75%;
+        background-color: white;
+        padding: 1px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -1px;
+        padding: 11px;
+    }
+    .btn-div {
+        width: 12%;
+        padding: 19px;
+        margin-left: -140px;
+    }
+    .last {
+        margin-bottom: 30px;
+    }
+    input {
+        font-size: 25px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -171,18 +257,63 @@ a.navbar-brand {
      #content h1 {
         font-size: 65px;
      }
+
+     .notify {
+        width: 90%;
+        background-color: white;
+        padding: 1px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -2px;
+        padding: 11px;
+    }
+    .btn-div {
+        width: 17%;
+        padding: 20px;
+        margin-left: -150px;
+    }
+    input {
+        font-size: 25px;
+    }
+    .last {
+        margin-bottom: 40px;
+    }
 }
+
 
 @media only screen and (min-width: 1400px){
     #root {
         text-align: center;
     }
     #content {
-        width: 55%;
+        width: 60%;
         margin: auto;
         padding-top: 10%;
      }
      #content h1 {
         font-size: 70px;
      }
+
+    .notify {
+        width: 90%;
+        background-color: white;
+        padding: 1px;
+        border-radius: 50px;
+    }
+    .email-div {
+        margin-left: -2px;
+        padding: 8px;
+    }
+    .btn-div {
+        width: 10%;
+        padding: 18px;
+        margin-left: -150px;
+    }
+    input {
+        font-size: 25px;
+    }
+    .last {
+        margin-bottom: 40px;
+    }
 }
