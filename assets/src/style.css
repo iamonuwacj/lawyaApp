@@ -64,13 +64,15 @@ a.navbar-brand {
     padding: 7px;
     text-align: center;
     margin-left: -35px;
-    background-color: rgb(103, 128, 159);
+    background-color: rgba(0, 0, 0);
 }
 .btn-div button {
     width: 100%;
     padding: 4px 8px;
     border: none;
     background-color: transparent;
+    color: white;
+
 }
 
 @media only screen and (max-width: 400px){
