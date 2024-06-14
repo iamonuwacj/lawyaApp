@@ -81,7 +81,7 @@ a.navbar-brand {
 #ack {
     position: absolute;
     bottom: 0;
-    left: 45%;
+    /* left: 45%; */
 }
 
 @media only screen and (max-width: 400px){
@@ -106,6 +106,9 @@ a.navbar-brand {
         width: 20%;
         padding: 13px;
         margin-left: -150px;
+    }
+    #ack {
+        left: 0;
     }
 }
 
@@ -145,6 +148,9 @@ a.navbar-brand {
     .btn-div {
         width: 12%;
     }
+    #ack {
+        left: 30%;
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px){
@@ -172,6 +178,9 @@ a.navbar-brand {
         width: 12%;
         padding: 13px;
         margin-left: -150px;
+    }
+    #ack {
+        left: 35%;
     }
 }
 
@@ -208,6 +217,9 @@ a.navbar-brand {
         width: 10%;
         padding: 18px;
         margin-left: -150px;
+    }
+    #ack {
+        left: 35%;
     }
 }
 
@@ -249,6 +261,9 @@ a.navbar-brand {
         font-size: 25px;
         padding-right: 10px;
     }
+    #ack {
+        left: 40%;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
@@ -284,6 +299,9 @@ a.navbar-brand {
     }
     .last {
         margin-bottom: 40px;
+    }
+    #ack {
+        left: 40%;
     }
 }
 
@@ -321,5 +339,8 @@ a.navbar-brand {
     }
     .last {
         margin-bottom: 40px;
+    }
+    #ack {
+        left: 40%;
     }
 }
