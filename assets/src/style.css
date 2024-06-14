@@ -78,6 +78,12 @@ a.navbar-brand {
 
 }
 
+#ack {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
 @media only screen and (max-width: 400px){
     #root {
         padding: 2% 10%;
